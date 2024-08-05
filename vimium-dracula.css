@@ -160,3 +160,30 @@ div.vimiumHUD .vimiumHUDSearchAreaInner {
 #vomnibarInput::selection {
   background-color: #8be9fd;
 }
+
+/* Options and blank page styling */
+body.vimiumBody, div#footer, div#footerWrapper {
+  background-color: #282A36 !important;
+}
+
+body.vimiumBody input, body.vimiumBody textarea {
+  background-color: #44475A;
+  border-color: #44475A;
+}
+
+body.vimiumBody .remove {
+  background-color: #44475A;
+  color: #F8F8F2;
+}
+
+body.vimiumBody a {
+  color: #88E9FD;
+}
+
+body.vimiumBody .exclusionHeaderText, body.vimiumBody .example {
+  color: #6272A4 !important;
+}
+
+body.vimiumBody .caption, body.vimiumBody header, body.vimiumBody textarea, body.vimiumBody input {
+  color: #F8F8F2;
+}
